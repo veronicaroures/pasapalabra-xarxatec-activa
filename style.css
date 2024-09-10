@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     font-family:'bebas neue', sans-serif;
-    color:#0A1E46;
+    color:#ffffff;
     background-color: #0A1E46;
 }
 
@@ -24,6 +24,7 @@ header {
     text-transform: uppercase;
     text-align:center;
 }
+
 
 footer {
     background-color:#0A1E46;
@@ -47,6 +48,24 @@ footer p {
 
 .letra {
     color:white;
+}
+
+#instrucciones{
+    width: 50%;
+    margin-top: 6em;
+    margin-right: 5em;
+    text-align: left;
+}
+
+#area-juego{
+    display: flex;
+}
+
+button{
+    font-family:'bebas neue', sans-serif;
+    font-size: 20px;
+    color:#0A1E46;
+    background-color: white;
 }
 
 .circulo {
@@ -99,9 +118,3 @@ footer p {
 .circulo .letra:nth-child(23) { transform: rotate(240deg) translate(140px) rotate(-240deg); }
 .circulo .letra:nth-child(24) { transform: rotate(255deg) translate(140px) rotate(-255deg); }
 .circulo .letra:nth-child(25) { transform: rotate(270deg) translate(140px) rotate(-270deg); }
-
-
-
-
-
-
