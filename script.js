@@ -1,6 +1,6 @@
 const palabras = [
 	new Palabra(0, "A", "Empieza por A:", "Estructura de datos en JavaScript que permite almacenar y manipular una colección de elementos, como números o cadenas, en una sola variable.", "Array"),
-  new Palabra(1, "B", "Empieza por B:", "Parte de una página HTML donde se encuentra el contenido principal que se muestra en el navegador.", "Body"),
+  	new Palabra(1, "B", "Empieza por B:", "Parte de una página HTML donde se encuentra el contenido principal que se muestra en el navegador.", "Body"),
 	new Palabra(2, "C", "Empieza por C:", "Lenguaje utilizado para dar estilo y diseño a las páginas web, controlando la presentación de elementos HTML.", "CSS"),
 	new Palabra(3, "D", "Empieza por D:", "Etiqueta HTML que se usa para agrupar contenido o elementos con el fin de organizar mejor la estructura de la página.", "Div"),
 	new Palabra(4, "E", "Empieza por E:", "Acción que ocurre en el navegador o en un elemento HTML, como un clic, y que puede ser capturada y gestionada con JavaScript.", "Evento"),
@@ -10,7 +10,7 @@ const palabras = [
 	new Palabra(8, "I", "Empieza por I:", "Atributo HTML que asigna un identificador único a un elemento, útil para manipularlo con JavaScript o CSS.", "Id"),
 	new Palabra(9, "J", "Empieza por J:", "Lenguaje de programación que permite hacer que las páginas web sean interactivas, respondiendo a acciones del usuario.", "Javascript"),
 	new Palabra(10, "K", "Empieza por K", "Evento de JavaScript que se activa cuando una tecla es presionada en el teclado.", "Keydown"),
-  new Palabra(11, "L", "Contiene la L:", "Tipo de dato que puede tener solo dos valores: true o false, utilizado en condiciones y comparaciones lógicas.", "Boolean"),
+  	new Palabra(11, "L", "Contiene la L:", "Tipo de dato que puede tener solo dos valores: true o false, utilizado en condiciones y comparaciones lógicas.", "Boolean"),
 	new Palabra(12, "M", "Empieza por M:", "Propiedad en CSS que define el espacio exterior alrededor de un elemento, separándolo de otros.", "Margin"),
 	new Palabra(13, "N", "Empieza por N:", "Objeto global en JavaScript que representa un valor vacío o inexistente.", "Null"),
 	new Palabra(14, "O", "Empieza por O:", "Con la O: Propiedad de CSS que especifica cómo manejar el contenido que desborda el área de un elemento.", "Overflow"),
