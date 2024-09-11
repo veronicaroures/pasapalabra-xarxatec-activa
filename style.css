@@ -61,6 +61,11 @@ footer p {
     display: flex;
 }
 
+.respuesta{
+    width: 300px;
+    height: 30px;
+}
+
 button{
     font-family:'bebas neue', sans-serif;
     font-size: 20px;
