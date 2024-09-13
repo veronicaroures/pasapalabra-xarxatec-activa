@@ -50,7 +50,7 @@ h2 {
     cursor: pointer; 
     transition: all 0.3s ease; 
     display: block;
-    margin: 20px auto;
+    margin: 20px 0px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -66,6 +66,15 @@ h2 {
     transform: scale(0.98); 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.botones {
+    display: flex;               
+    justify-content: flex-start; 
+    gap: 20px;
+    margin:0px;
+    padding:0px;                   
+}
+
 
 footer {
     background-color:#0A1E46;
@@ -92,24 +101,8 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 45%;
     margin: 0 auto;
-}
-
-#area-juego div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.letra {
-    color:white;
-}
-
-.respuesta{
-    width: 300px;
-    height: 30px;
-    margin-bottom: 10px;
 }
 
 .circulo {
@@ -119,7 +112,43 @@ footer p {
     list-style: none;
     padding: 0;
     position: relative;
-    margin-right:20px;
+    
+}
+
+.area-respuesta {
+    width:300px;
+    height: 300px;
+    position: relative;
+    padding-top:80px;
+}
+
+.letra {
+    color:white;
+}
+
+.respuesta {
+    width: 100%;
+    max-width: 400px;  
+    padding: 10px 15px; 
+    font-size: 16px;  
+    border: 2px solid #46ffbc;  
+    border-radius: 8px;  
+    background-color: #0A1E46;  
+    color: #ffffff;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    transition: all 0.3s ease; 
+}
+
+.respuesta::placeholder {
+    color: #a0a0a0;  
+    font-style: italic;  
+}
+
+.respuesta:focus {
+    border-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(70, 255, 188, 0.5);  
+    outline: none;  
+    background-color: #073174;  
 }
 .circulo .letra {
     position: absolute;
