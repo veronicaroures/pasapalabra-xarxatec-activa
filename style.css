@@ -17,14 +17,55 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
 }
 
-.titulo h1 {
+h1 {
     font-size: 40px;
-    color:white;
-    margin:0;
     text-transform: uppercase;
+    text-align:center;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size:30px;
+}
+
+#contenedor-instrucciones {
+    width: 600px; 
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
 }
 
+.link-boton {
+    text-decoration: none;
+}
+
+.button {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #0A1E46;
+    background-color: white;
+    border: 2px solid #0A1E46;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #46ffbc;
+    color: #073174; 
+    transform: scale(1.05); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.button:active {
+    background-color: #073174; 
+    transform: scale(0.98); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 footer {
     background-color:#0A1E46;
@@ -33,6 +74,7 @@ footer {
     padding-top: 30px;
     text-align: center;
 }
+
 footer p {
     margin: 5px 0;
     text-align:center;
@@ -46,31 +88,17 @@ footer p {
     height: 15px;
 }
 
-.letra {
-    color:white;
-}
-
-#instrucciones{
-    width: 50%;
-    margin-top: 6em;
-    margin-right: 5em;
-    text-align: left;
-}
-
 #area-juego{
     display: flex;
+}
+
+.letra {
+    color:white;
 }
 
 .respuesta{
     width: 300px;
     height: 30px;
-}
-
-button{
-    font-family:'bebas neue', sans-serif;
-    font-size: 20px;
-    color:#0A1E46;
-    background-color: white;
 }
 
 .circulo {
@@ -90,10 +118,10 @@ button{
     transform: translate(-50%, -50%);
     font-size: 20px;
     color: white;
-    width: 30px;  /* Ancho del círculo envolvente */
-    height: 30px; /* Alto del círculo envolvente */
-    border: 2px solid white; /* Borde del círculo */
-    border-radius: 50%; /* Hacer que el contenedor sea circular */
+    width: 30px;  
+    height: 30px;
+    border: 2px solid white; 
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
